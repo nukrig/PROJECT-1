@@ -1,0 +1,76 @@
+.container{
+    max-width: 1500px;
+    width: 100%;
+    background-color:black;
+   
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-logo{
+    display: flex;
+    align-items: center;
+}
+.heading{
+    font-weight: bold;
+    color: rgb(255, 0, 43);
+    margin-left: -50px;
+}
+
+.right{
+    color: rgb(255, 0, 43);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navigation{
+    color: wheat;
+    font-weight: bold;
+    display: flex;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 150px;
+    position: fixed;
+}
+.nav-li{
+    margin-left: 50px;
+}
+
+
+.section-div{
+    display: flex;
+    justify-content: center;
+}
+.eclipse{
+    max-width: 450px;
+    max-height: 420px;
+    position: absolute;
+}
+.anonymous{
+    max-width: 430px;
+    max-height: 420px;
+    position: relative;
+    margin-top: 22px;
+}
+
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    color: white;
+}
+.span{
+    color: red;
+}
+.social-icons{
+    margin-right: 50px;
+}
+.footer{
+    margin-left: 50px;
+}
