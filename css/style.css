@@ -1,11 +1,34 @@
-.container{
-    max-width: 3000px;
-    width: 100%;
-    background-color:black;
-   
-}
-.display{
+.navigation{
+    color: wheat;
+    font-weight: bold;
     display: flex;
+    justify-content: center;
+    /* transform: rotate(90deg); */
+    /* position: fixed; */
+}
+.nav-li{
+    margin-left: 50px;
+    display: flex;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: relative;
+}
+.header-inner{
+    position: absolute;
+    width: 500px;
+    transform: rotate(90deg);
+    float: right;
+    right: 20px;
+    top: 278px;;
+}
+.sec-1{
+    display: flex; 
     align-items: center;
     justify-content: space-between;
 }
@@ -13,68 +36,60 @@
     display: flex;
     align-items: center;
 }
-.heading{
-    font-weight: bold;
-    color: rgb(255, 0, 43);
-    margin-left: -50px;
-}
-
 .right{
     color: rgb(255, 0, 43);
     font-weight: bold;
     font-size: 30px;
 }
-
-.navigation{
-    color: wheat;
-    font-weight: bold;
-    display: flex;
-    transform: rotate(90deg);
-    position: absolute;
-    margin-left: 250px;
-    margin-top: 150px;
-    position: fixed;
-}
-.nav-li{
-    margin-left: 50px;
-}
-
-
-.section-div{
-    display: flex;
-    justify-content: center;
-}
-.eclipse{
-    max-width: 450px;
-    width: 100%;
-    max-height: 420px;
-    height: 100%;
-    position: absolute;
-}
-.anonymous{
-    max-width: 430px;
-    width: 100%;
-    max-height: 420px;
-    height: 100%;
+.section-inner{
     position: relative;
-    margin-top: 22px;
 }
-
-
-.footer-div{
-    display: flex;
-    justify-content: space-between;
+.saxeli{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
 }
-
+.heading{
+    font-weight: bold;
+    color: rgb(255, 0, 43);
+}
 .footer{
     color: white;
 }
 .span{
     color: red;
 }
-.social-icons{
-    margin-right: 50px;
+
+.eclipse{
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    position: absolute;
+    filter: blur(40px);
 }
+.anonymous{
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    position: relative;
+    margin-top: 22px;
+}
+.sec-2{
+    display: flex;
+    justify-content: center;
+    margin-top: -13px;
+}
+.sec-3{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer{
     margin-left: 50px;
+}
+.social-icons{
+    margin-right: 50px;
 }
